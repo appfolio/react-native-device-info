@@ -16,5 +16,6 @@
 #endif
 
 @interface RNDeviceInfo : NSObject <RCTBridgeModule>
-
+- (NSString*) deviceId;
+- (NSString*) deviceName;
 @end
